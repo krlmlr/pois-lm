@@ -11,4 +11,11 @@ source("read-data.R")
 source("clean-data.R")
 source("tidy-data.R")
 
+source("manipulate-lm.R")
+source("dag-lm.R")
+source("analyse-lm.R")
+source("predict-lm.R")
+source("residuals-lm.R")
+source("sensitivity-lm.R")
+
 source("session-info.R")
