@@ -1,3 +1,5 @@
+options(warn = 2)
+
 if(FALSE) {
   source("header.R")
   source("install-packages.R")
@@ -7,9 +9,11 @@ if(FALSE) {
   source("remove-main.R")
 }
 
+options(warn = 1)
 source("read-data.R")
 source("clean-data.R")
 source("tidy-data.R")
+options(warn = 2)
 
 source("manipulate-lm.R")
 source("dag-lm.R")
