@@ -9,7 +9,7 @@ data <- data_set(analysis)
 
 glance <- glance(analysis)
 coef <- coef(analysis, include_constant = FALSE, simplify = TRUE) %>%
-  mutate(across(estimate:svalue, signif, 3))
+  mutate(across(estimate:svalue, ~ signif(.x, 3)))
 
 glance %>% print()
 coef %>% print(n = nrow(.)) 
