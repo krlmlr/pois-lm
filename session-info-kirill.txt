@@ -1,0 +1,259 @@
+─ Session info ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ setting  value
+ version  R version 4.3.1 (2023-06-16)
+ os       macOS Ventura 13.5.2
+ system   aarch64, darwin20
+ ui       RStudio
+ language (EN)
+ collate  en_US.UTF-8
+ ctype    en_US.UTF-8
+ tz       America/Vancouver
+ date     2023-09-26
+ rstudio  2023.06.2+561 Mountain Hydrangea (desktop)
+ pandoc   3.1.3 @ /opt/homebrew/bin/ (via rmarkdown)
+
+─ Packages ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ package         * version     date (UTC) lib source
+ abind             1.4-5       2016-07-21 [1] CRAN (R 4.3.0)
+ assertthat        0.2.1       2019-03-21 [1] CRAN (R 4.3.0)
+ audio             0.1-11      2023-08-18 [1] RSPM
+ backports         1.4.1       2021-12-13 [1] RSPM
+ base64enc         0.1-3       2015-07-28 [1] CRAN (R 4.3.0)
+ bcdata          * 0.4.1.9000  2023-09-25 [1] Github (bcgov/bcdata@8a9aeda)
+ beepr             1.3         2018-06-04 [1] RSPM
+ bit               4.0.5       2022-11-15 [1] CRAN (R 4.3.0)
+ bit64             4.0.5       2020-08-30 [1] CRAN (R 4.3.0)
+ bitops            1.0-7       2021-04-24 [1] CRAN (R 4.3.0)
+ blob            * 1.2.4       2023-03-17 [1] RSPM
+ boot              1.3-28.1    2022-11-22 [2] CRAN (R 4.3.1)
+ brio              1.1.3       2021-11-30 [1] CRAN (R 4.3.0)
+ broom             1.0.5       2023-06-09 [1] RSPM
+ cachem            1.0.8       2023-05-01 [1] RSPM
+ callr             3.7.3       2022-11-02 [1] CRAN (R 4.3.0)
+ canwqdata       * 0.3.0       2023-09-25 [1] Github (bcgov/canwqdata@1984cf0)
+ cellranger        1.1.0       2016-07-27 [1] RSPM
+ checkr            0.5.0       2019-04-25 [1] RSPM
+ chk             * 0.9.0.9000  2023-09-25 [1] Github (poissonconsulting/chk@c2545f0)
+ class             7.3-22      2023-05-03 [2] CRAN (R 4.3.1)
+ classInt          0.4-10      2023-09-05 [1] CRAN (R 4.3.0)
+ cli             * 3.6.1       2023-03-23 [1] CRAN (R 4.3.0)
+ clipr             0.8.0       2022-02-22 [1] RSPM
+ coda              0.19-4      2020-09-30 [1] CRAN (R 4.3.0)
+ codetools         0.2-19      2023-02-01 [2] CRAN (R 4.3.1)
+ colorspace        2.1-0       2023-01-23 [1] RSPM
+ crayon          * 1.5.2       2022-09-29 [1] CRAN (R 4.3.0)
+ crosstalk         1.2.0       2021-11-04 [1] RSPM
+ curl              5.0.2       2023-08-14 [1] CRAN (R 4.3.0)
+ cyclocomp         1.1.1       2023-08-30 [1] RSPM
+ daff            * 0.3.8       2023-09-25 [1] Github (edwindj/daff@d4323de)
+ dagitty           0.3-1       2021-01-21 [1] CRAN (R 4.3.0)
+ data.table      * 1.14.8      2023-02-17 [1] CRAN (R 4.3.0)
+ dbflobr         * 0.2.2       2023-09-25 [1] Github (poissonconsulting/dbflobr@1c078fa)
+ DBI               1.1.3       2022-06-18 [1] CRAN (R 4.3.0)
+ dbplyr            2.3.3       2023-07-07 [1] RSPM
+ desc              1.4.2       2022-09-08 [1] CRAN (R 4.3.0)
+ devtools        * 2.4.5       2022-10-11 [1] RSPM
+ digest            0.6.33      2023-07-07 [1] RSPM
+ dm              * 1.0.6       2023-07-21 [1] CRAN (R 4.3.0)
+ doParallel      * 1.0.17      2022-02-07 [1] CRAN (R 4.3.0)
+ dplyr           * 1.1.3       2023-09-03 [1] CRAN (R 4.3.0)
+ dttr2           * 0.4.2.9001  2023-09-25 [1] Github (poissonconsulting/dttr2@be0eb04)
+ duckdb            0.8.1-3     2023-09-01 [1] RSPM
+ e1071             1.7-13      2023-02-01 [1] CRAN (R 4.3.0)
+ ellipsis          0.3.2       2021-04-29 [1] CRAN (R 4.3.0)
+ embr              0.0.1.9035  2023-09-25 [1] Github (poissonconsulting/embr@4c7e71f)
+ err             * 0.2.0.9000  2023-09-25 [1] Github (poissonconsulting/err@3c950d3)
+ evaluate          0.21        2023-05-05 [1] RSPM
+ extras          * 0.6.1.9000  2023-09-25 [1] Github (poissonconsulting/extras@01c266c)
+ fansi             1.0.4       2023-01-22 [1] CRAN (R 4.3.0)
+ farver            2.1.1       2022-07-06 [1] RSPM
+ fastmap           1.1.1       2023-02-24 [1] CRAN (R 4.3.0)
+ fishbc          * 0.2.1.9000  2023-09-25 [1] Github (poissonconsulting/fishbc@7a47891)
+ fledge          * 0.1.99.9003 2023-09-26 [1] Github (krlmlr/fledge@23c50c9)
+ flobr           * 0.2.3.9000  2023-09-25 [1] Github (poissonconsulting/flobr@7f05a71)
+ forcats         * 1.0.0       2023-01-29 [1] RSPM
+ foreach         * 1.5.2       2022-02-02 [1] CRAN (R 4.3.0)
+ fs                1.6.3       2023-07-20 [1] RSPM
+ furrr             0.3.1       2022-08-15 [1] CRAN (R 4.3.0)
+ future            1.33.0      2023-07-01 [1] CRAN (R 4.3.0)
+ fwapgr          * 0.1.0.9013  2023-09-25 [1] Github (poissonconsulting/fwapgr@62fbf46)
+ fwatlasbc       * 0.0.1.9016  2023-09-25 [1] Github (poissonconsulting/fwatlasbc@e38b13f)
+ generics          0.1.3       2022-07-05 [1] RSPM
+ ggdag           * 0.2.10      2023-05-28 [1] RSPM
+ ggforce           0.4.1       2022-10-04 [1] RSPM
+ ggmap           * 3.0.2.9001  2023-09-25 [1] Github (dkahle/ggmap@2cc32a4)
+ ggplot2         * 3.4.3       2023-08-14 [1] RSPM
+ ggraph            2.1.0       2022-10-09 [1] CRAN (R 4.3.0)
+ ggrepel         * 0.9.3       2023-02-03 [1] RSPM
+ ggspatial       * 1.1.9       2023-08-17 [1] CRAN (R 4.3.0)
+ ggthemes        * 4.2.4       2021-01-20 [1] CRAN (R 4.3.0)
+ git2r             0.32.0      2023-04-12 [1] RSPM
+ globals           0.16.2      2022-11-21 [1] CRAN (R 4.3.0)
+ glue            * 1.6.2       2022-02-24 [1] RSPM
+ goftest           1.2-3       2021-10-07 [1] CRAN (R 4.3.0)
+ graphlayouts      1.0.1       2023-09-19 [1] RSPM
+ gridExtra         2.3         2017-09-09 [1] RSPM
+ gtable            0.3.4       2023-08-21 [1] CRAN (R 4.3.0)
+ hms             * 1.1.3       2023-03-21 [1] CRAN (R 4.3.0)
+ hmstimer        * 0.2.1.9000  2023-09-25 [1] Github (poissonconsulting/hmstimer@2c88234)
+ htmltools         0.5.6       2023-08-10 [1] CRAN (R 4.3.0)
+ htmlwidgets       1.6.2       2023-03-17 [1] CRAN (R 4.3.0)
+ httpuv            1.6.11      2023-05-11 [1] CRAN (R 4.3.0)
+ httr              1.4.7       2023-08-15 [1] RSPM
+ igraph            1.5.1       2023-08-10 [1] RSPM
+ inline            0.3.19      2021-05-31 [1] RSPM
+ iterators       * 1.0.14      2022-02-05 [1] CRAN (R 4.3.0)
+ jmbr            * 0.0.0.9113  2023-09-26 [1] Github (poissonconsulting/jmbr@4683f46)
+ jpeg              0.1-10      2022-11-29 [1] RSPM
+ jsonlite          1.8.7       2023-06-29 [1] RSPM
+ KernSmooth        2.23-22     2023-07-10 [1] RSPM
+ knitr             1.44        2023-09-11 [1] CRAN (R 4.3.0)
+ labeling          0.4.3       2023-08-29 [1] RSPM
+ later             1.3.1       2023-05-02 [1] CRAN (R 4.3.0)
+ latex2exp       * 0.9.6       2022-11-28 [1] RSPM
+ lattice           0.21-8      2023-04-05 [2] CRAN (R 4.3.1)
+ lazyeval          0.2.2       2019-03-15 [1] RSPM
+ leafem            0.2.3       2023-09-17 [1] RSPM
+ leaflet           2.2.0       2023-08-31 [1] CRAN (R 4.3.0)
+ lifecycle         1.0.3       2022-10-07 [1] RSPM
+ lintr           * 3.1.0       2023-07-19 [1] RSPM
+ listenv           0.9.0       2022-12-16 [1] RSPM
+ loo               2.6.0       2023-03-31 [1] RSPM
+ lubridate       * 1.9.2       2023-02-10 [1] RSPM
+ magrittr        * 2.0.3       2022-03-30 [1] CRAN (R 4.3.0)
+ mapview         * 2.11.0      2022-04-16 [1] RSPM
+ MASS              7.3-60      2023-05-04 [2] CRAN (R 4.3.1)
+ Matrix            1.6-1.1     2023-09-18 [1] CRAN (R 4.3.1)
+ matrixStats       1.0.0       2023-06-02 [1] CRAN (R 4.3.0)
+ mbr             * 0.0.1.9031  2023-09-26 [1] Github (poissonconsulting/mbr@e369c64)
+ mcmcdata        * 0.0.1.9000  2023-09-25 [1] Github (poissonconsulting/mcmcdata@0861524)
+ mcmcderive      * 0.1.2.9001  2023-09-25 [1] Github (poissonconsulting/mcmcderive@c2f0ca4)
+ mcmcr           * 0.6.1.9001  2023-09-25 [1] Github (poissonconsulting/mcmcr@ca88071)
+ memoise           2.0.1       2021-11-26 [1] RSPM
+ mime              0.12        2021-09-28 [1] CRAN (R 4.3.0)
+ miniUI            0.1.1.1     2018-05-18 [1] CRAN (R 4.3.0)
+ munsell           0.5.0       2018-06-12 [1] RSPM
+ NADA              1.6-1.1     2020-03-22 [1] RSPM
+ naniar          * 1.0.0       2023-02-02 [1] RSPM
+ newdata         * 0.0.0.9018  2023-09-26 [1] Github (poissonconsulting/newdata@8bacf2d)
+ nlist           * 0.3.3.9000  2023-09-25 [1] Github (poissonconsulting/nlist@33d0fbe)
+ parallelly        1.36.0      2023-05-26 [1] RSPM
+ pillar          * 1.9.0       2023-03-22 [1] CRAN (R 4.3.0)
+ pkgbuild          1.4.2       2023-06-26 [1] RSPM
+ pkgconfig         2.0.3       2019-09-22 [1] CRAN (R 4.3.0)
+ pkgdown         * 2.0.7       2022-12-14 [1] CRAN (R 4.3.0)
+ pkgload           1.3.3       2023-09-22 [1] RSPM
+ plyr            * 1.8.8       2022-11-11 [1] CRAN (R 4.3.0)
+ png               0.1-8       2022-11-29 [1] CRAN (R 4.3.0)
+ poisdata        * 0.0.1.9001  2023-09-25 [1] Github (poissonconsulting/poisdata@ea38506)
+ poisix          * 0.0.0.9006  2023-09-25 [1] Github (poissonconsulting/poisix@4748747)
+ poispalette     * 0.0.0.9000  2023-09-25 [1] Github (poissonconsulting/poispalette@3beec38)
+ poispkgs        * 0.1.0.9008  2023-09-26 [1] local
+ poisplot        * 0.0.0.9002  2023-09-25 [1] Github (poissonconsulting/poisplot@f238aea)
+ poisspatial     * 0.1.0.9000  2023-09-25 [1] Github (poissonconsulting/poisspatial@602438e)
+ poisutils       * 0.0.0.9010  2023-09-25 [1] Github (poissonconsulting/poisutils@8310dc4)
+ polyclip          1.10-4      2022-10-20 [1] RSPM
+ prettyunits       1.2.0       2023-09-24 [1] RSPM
+ processx          3.8.2       2023-06-30 [1] CRAN (R 4.3.0)
+ profvis           0.3.8       2023-05-02 [1] RSPM
+ promises          1.2.1       2023-08-10 [1] RSPM
+ proxy             0.4-27      2022-06-09 [1] RSPM
+ ps                1.7.5       2023-04-18 [1] CRAN (R 4.3.0)
+ purrr           * 1.0.2       2023-08-10 [1] CRAN (R 4.3.0)
+ QuickJSR          1.0.6       2023-09-12 [1] CRAN (R 4.3.0)
+ R.cache           0.16.0      2022-07-21 [1] CRAN (R 4.3.0)
+ R.methodsS3       1.8.2       2022-06-13 [1] RSPM
+ R.oo              1.25.0      2022-06-12 [1] CRAN (R 4.3.0)
+ R.utils           2.12.2      2022-11-11 [1] CRAN (R 4.3.0)
+ R6                2.5.1       2021-08-19 [1] RSPM
+ ragg              1.2.5       2023-01-12 [1] RSPM
+ rappdirs          0.3.3       2021-01-31 [1] RSPM
+ raster            3.6-23      2023-07-04 [1] CRAN (R 4.3.0)
+ rbibutils         2.2.15      2023-08-21 [1] RSPM
+ Rcpp              1.0.11      2023-07-06 [1] RSPM
+ RcppParallel      5.1.7       2023-02-27 [1] CRAN (R 4.3.0)
+ Rdpack            2.5         2023-08-21 [1] CRAN (R 4.3.0)
+ readr           * 2.1.4       2023-02-10 [1] CRAN (R 4.3.0)
+ readwriteaws    * 0.0.0.9001  2023-09-25 [1] Github (poissonconsulting/readwriteaws@ad9f256)
+ readwritesqlite * 0.2.0.9000  2023-09-25 [1] Github (poissonconsulting/readwritesqlite@db96113)
+ readxl          * 1.4.3       2023-07-06 [1] CRAN (R 4.3.0)
+ remotes         * 2.4.2.1     2023-07-18 [1] RSPM
+ rems            * 0.8.1       2023-09-25 [1] Github (bcgov/rems@1ea18c5)
+ reprex          * 2.0.2       2022-08-17 [1] RSPM
+ rescale         * 0.0.0.9006  2023-09-25 [1] Github (poissonconsulting/rescale@f319d66)
+ reshape2        * 1.4.4       2020-04-09 [1] CRAN (R 4.3.0)
+ rex               1.2.1       2021-11-26 [1] RSPM
+ rgdal           * 1.6-7       2023-05-31 [1] RSPM
+ RgoogleMaps       1.4.5.3     2020-02-12 [1] CRAN (R 4.3.0)
+ rjags             4-14        2023-04-23 [1] RSPM
+ rlang           * 1.1.1       2023-04-28 [1] RSPM
+ rmarkdown       * 2.25        2023-09-18 [1] RSPM
+ roxygen2md      * 1.0.0       2019-06-17 [1] RSPM
+ rprojroot         2.0.3       2022-04-02 [1] RSPM
+ RSQLite         * 2.3.1       2023-04-03 [1] CRAN (R 4.3.0)
+ rstan             2.26.23     2023-09-08 [1] CRAN (R 4.3.0)
+ rstudioapi        0.15.0      2023-07-07 [1] CRAN (R 4.3.0)
+ satellite         1.0.4       2021-10-12 [1] CRAN (R 4.3.0)
+ scales          * 1.2.1       2022-08-20 [1] CRAN (R 4.3.0)
+ sessioninfo     * 1.2.2       2021-12-06 [1] CRAN (R 4.3.0)
+ sf              * 1.0-14      2023-07-11 [1] RSPM
+ shiny             1.7.5       2023-08-12 [1] CRAN (R 4.3.0)
+ smbr            * 0.0.1.9006  2023-09-25 [1] Github (poissonconsulting/smbr@0f94c40)
+ snakecase       * 0.11.1      2023-08-27 [1] RSPM
+ sp              * 2.0-0       2023-06-22 [1] CRAN (R 4.3.0)
+ ssddata           1.0.0       2021-11-05 [1] RSPM
+ ssdtools        * 1.0.6.9000  2023-09-25 [1] Github (bcgov/ssdtools@5ccb50c)
+ StanHeaders       2.26.28     2023-09-07 [1] RSPM
+ storr             1.2.5       2020-12-01 [1] CRAN (R 4.3.0)
+ stringi           1.7.12      2023-01-11 [1] RSPM
+ stringr         * 1.5.0       2022-12-02 [1] RSPM
+ styler          * 1.10.2      2023-08-29 [1] CRAN (R 4.3.0)
+ subfoldr2       * 0.0.0.9047  2023-09-25 [1] Github (poissonconsulting/subfoldr2@6766176)
+ subreport       * 0.0.0.9015  2023-09-25 [1] Github (poissonconsulting/subreport@6a8e548)
+ survival          3.5-7       2023-08-14 [1] CRAN (R 4.3.0)
+ systemfonts       1.0.4       2022-02-11 [1] RSPM
+ term            * 0.3.5.9000  2023-09-25 [1] Github (poissonconsulting/term@2391eb9)
+ terra             1.7-46      2023-09-06 [1] RSPM
+ testthat        * 3.1.10      2023-07-06 [1] RSPM
+ textshaping       0.3.6       2021-10-13 [1] RSPM
+ tibble          * 3.2.1       2023-03-20 [1] CRAN (R 4.3.0)
+ tidygraph         1.2.3       2023-02-01 [1] RSPM
+ tidyhydat       * 0.6.0       2023-04-04 [1] CRAN (R 4.3.0)
+ tidyplus        * 0.0.2.9000  2023-09-25 [1] Github (poissonconsulting/tidyplus@2502efb)
+ tidyr           * 1.3.0       2023-01-24 [1] CRAN (R 4.3.0)
+ tidyselect        1.2.0       2022-10-10 [1] RSPM
+ timechange        0.2.0       2023-01-11 [1] CRAN (R 4.3.0)
+ timer             0.0.1.9000  2023-09-25 [1] Github (poissonconsulting/timer@f5a6b4b)
+ tinter          * 0.1.0.9001  2023-09-25 [1] Github (poissonconsulting/tinter@21ff642)
+ TMB               1.9.6       2023-09-25 [1] local
+ tmbr            * 0.0.1.9003  2023-09-26 [1] Github (poissonconsulting/tmbr@bfa10d8)
+ tweenr            2.0.2       2022-09-06 [1] RSPM
+ tzdb              0.4.0       2023-05-12 [1] CRAN (R 4.3.0)
+ udunits2          0.13.2.1    2022-03-11 [1] RSPM
+ units           * 0.8-4       2023-09-13 [1] CRAN (R 4.3.0)
+ universals      * 0.0.5.9000  2023-09-25 [1] Github (poissonconsulting/universals@152629f)
+ urlchecker        1.0.1       2021-11-30 [1] RSPM
+ usepois         * 0.0.0.9012  2023-09-26 [1] local
+ usethis         * 2.2.2       2023-07-06 [1] RSPM
+ utf8              1.2.3       2023-01-31 [1] RSPM
+ V8                4.3.3       2023-07-18 [1] CRAN (R 4.3.0)
+ vctrs             0.6.3       2023-06-14 [1] CRAN (R 4.3.0)
+ VGAM              1.1-9       2023-09-19 [1] CRAN (R 4.3.1)
+ viridis         * 0.6.4       2023-07-22 [1] RSPM
+ viridisLite     * 0.4.2       2023-05-02 [1] CRAN (R 4.3.0)
+ visdat            0.6.0       2023-02-02 [1] RSPM
+ vroom             1.6.3       2023-04-28 [1] RSPM
+ webshot           0.5.5       2023-06-26 [1] RSPM
+ whisker           0.4.1       2022-12-05 [1] RSPM
+ withr             2.5.0       2022-03-03 [1] CRAN (R 4.3.0)
+ wqbc            * 0.3.1.9003  2023-09-25 [1] Github (bcgov/wqbc@d6172fc)
+ wqindex         * 0.3.1.9001  2023-09-25 [1] Github (bcgov/wqindex@804ced9)
+ xfun              0.40        2023-08-09 [1] CRAN (R 4.3.0)
+ xml2              1.3.5       2023-07-06 [1] CRAN (R 4.3.0)
+ xtable            1.8-4       2019-04-21 [1] CRAN (R 4.3.0)
+ yesno           * 0.1.2.9000  2023-09-25 [1] Github (poissonconsulting/yesno@2318599)
+
+ [1] /Users/kirill/Library/R/arm64/4.3/library
+ [2] /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
