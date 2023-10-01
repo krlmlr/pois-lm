@@ -17,13 +17,13 @@ sbf_save_table(description, caption = "Parameter descriptions.")
 
 model <- pmb_multi_model(
   {
-    bY ~ dnorm(0, 2^-2)
-    bX ~ dnorm(0, 2^-2)
-    sY ~ T(dnorm(0, 2^-2), 0, )
+    bY ~ dnorm(0, sd = 2)
+    bX ~ dnorm(0, sd = 2)
+    sY ~ T(dnorm(0, sd = 2), 0, )
 
     for (i in 1:nObs) {
       eY[i] <- bY + bX * X[i]
-      Y[i] ~ dnorm(eY[i], sY^-2)
+      Y[i] ~ dnorm(eY[i], sd = sY)
     }
   },
   new_expr = {
