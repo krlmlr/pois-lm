@@ -15,8 +15,8 @@ description %<>% arrange(Parameter)
 
 sbf_save_table(description, caption = "Parameter descriptions.")
 
-model <- pmb_multi_model(
-  {
+model <- model(
+  code = {
     bY ~ dnorm(0, sd = 2)
     bX ~ dnorm(0, sd = 2)
     sY ~ T(dnorm(0, sd = 2), 0, )
